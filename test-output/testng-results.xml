@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="161" started-at="2019-04-16T14:29:41Z" finished-at="2019-04-16T14:29:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="161" started-at="2019-04-16T14:29:41Z" finished-at="2019-04-16T14:29:41Z">
+      <class name="yiye.Excel">
+        <test-method status="PASS" signature="testAdd(java.util.HashMap)[pri:0, instance:yiye.Excel@eafc191]" name="testAdd" duration-ms="7" started-at="2019-04-16T14:29:41Z" data-provider="num" finished-at="2019-04-16T14:29:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{result=2, num1=1, num2=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testAdd(java.util.HashMap)[pri:0, instance:yiye.Excel@eafc191]" name="testAdd" duration-ms="1" started-at="2019-04-16T14:29:41Z" data-provider="num" finished-at="2019-04-16T14:29:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{result=7, num1=3, num2=4}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testAdd(java.util.HashMap)[pri:0, instance:yiye.Excel@eafc191]" name="testAdd" duration-ms="1" started-at="2019-04-16T14:29:41Z" data-provider="num" finished-at="2019-04-16T14:29:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{result=10, num1=5, num2=5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testAdd(java.util.HashMap)[pri:0, instance:yiye.Excel@eafc191]" name="testAdd" duration-ms="0" started-at="2019-04-16T14:29:41Z" data-provider="num" finished-at="2019-04-16T14:29:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{result=12, num1=5, num2=7}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testAdd(java.util.HashMap)[pri:0, instance:yiye.Excel@eafc191]" name="testAdd" duration-ms="1" started-at="2019-04-16T14:29:41Z" data-provider="num" finished-at="2019-04-16T14:29:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{result=100, num1=56, num2=44}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+      </class> <!-- yiye.Excel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

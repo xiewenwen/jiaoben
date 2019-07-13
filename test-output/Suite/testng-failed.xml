@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="TestBaiDu(failed)">
+    <parameter name="keyWords" value="ashin"/>
+    <parameter name="www" value="https://www.baidu.com/"/>
+    <classes>
+      <class name="com.com.TestBaiDu">
+        <methods>
+          <include name="testBaiDu" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.com.TestBaiDu -->
+    </classes>
+  </test> <!-- TestBaiDu(failed) -->
+</suite> <!-- Failed suite [Suite] -->

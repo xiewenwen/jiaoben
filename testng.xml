@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <!-- <test thread-count="5" name="Test">
+  	  <parameter name="parameter1" value="阿信" />
+        
+        <classes>
+            <class name="com.Test" />
+            
+        </classes>
+  </test>  --><!-- Test -->
+  <test name="TestBaiDu">
+  	<parameter name="www" value="https://www.baidu.com/"/>
+  	<parameter name="keyWords" value="ashin"/>
+  	<classes>
+  		<class name="com.com.TestBaiDu"/>
+  	</classes>
+  </test>
+  
+</suite> <!-- Suite -->
