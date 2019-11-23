@@ -12,6 +12,7 @@ public class NewTest {
 	 
   @Test(invocationCount=1)
   public void f() {
+  	
 	  	System.setProperty("webdriver.chrome.driver", "C://Program Files (x86)//Google//Chrome//Application//chromedriver.exe");
 	    driver=new ChromeDriver();
 		driver.manage().window().maximize();

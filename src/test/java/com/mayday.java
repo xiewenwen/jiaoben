@@ -11,5 +11,8 @@ public class mayday {
     public void test12(){
         System.out.println("DDDDDD");
     }
-
+    @Test
+    public void love(){
+        System.out.println("i love ashin");
+    }
 }
