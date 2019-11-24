@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f745af82-3982-4eb7-bd5c-c46acc42b030" name="Default Changelist" comment="sd">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_easymock_easymock_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jiaoben.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jiaoben.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/NewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/NewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mayday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mayday.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/NewTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/NewTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mayday.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mayday.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +48,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -55,13 +65,91 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.mayday.test12">
+  <component name="RunManager" selected="TestNG.EasyMock.testTea">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
       <fork_mode value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EasyMock" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jiaoben" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="mock" />
+      <option name="MAIN_CLASS_NAME" value="mock.EasyMock" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EasyMock.testMock" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jiaoben" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="mock" />
+      <option name="MAIN_CLASS_NAME" value="mock.EasyMock" />
+      <option name="METHOD_NAME" value="testMock" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EasyMock.testTea" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jiaoben" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="mock" />
+      <option name="MAIN_CLASS_NAME" value="mock.EasyMock" />
+      <option name="METHOD_NAME" value="testTea" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,6 +248,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EasyMock.testTea" />
+        <item itemvalue="TestNG.EasyMock" />
+        <item itemvalue="TestNG.EasyMock.testMock" />
         <item itemvalue="TestNG.mayday.test12" />
         <item itemvalue="TestNG.NewTest2" />
       </list>
@@ -192,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574526365127</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sd">
+      <created>1574527650841</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574527650841</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -216,6 +314,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="YUNXING" />
-    <option name="LAST_COMMIT_MESSAGE" value="YUNXING" />
+    <MESSAGE value="sd" />
+    <option name="LAST_COMMIT_MESSAGE" value="sd" />
   </component>
 </project>
