@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f745af82-3982-4eb7-bd5c-c46acc42b030" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/DoubanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/DoubanTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -304,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586261835336</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="自动化测试">
+      <created>1586262681052</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586262681052</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -360,6 +368,7 @@
     <MESSAGE value="YUNXING" />
     <MESSAGE value="sd" />
     <MESSAGE value="mockito" />
-    <option name="LAST_COMMIT_MESSAGE" value="mockito" />
+    <MESSAGE value="自动化测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="自动化测试" />
   </component>
 </project>
