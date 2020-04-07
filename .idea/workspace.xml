@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f745af82-3982-4eb7-bd5c-c46acc42b030" name="Default Changelist" comment="mockito">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/DoubanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jiaoben.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jiaoben.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mock/EasyMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mock/EasyMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mock/EasyMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mock/EasyMock.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +63,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.EasyMock.testTea">
+  <component name="RunManager" selected="TestNG.DoubanTest.getMovie">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
       <fork_mode value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubanTest.getMovie" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jiaoben" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.DoubanTest" />
+      <option name="METHOD_NAME" value="getMovie" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,7 +152,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EasyMock.testMock" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EasyMock.testTea" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jiaoben" />
       <extension name="coverage">
         <pattern>
@@ -133,7 +163,7 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="mock" />
       <option name="MAIN_CLASS_NAME" value="mock.EasyMock" />
-      <option name="METHOD_NAME" value="testMock" />
+      <option name="METHOD_NAME" value="testTea" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -148,18 +178,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EasyMock.testTea" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NewTest.f" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jiaoben" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mock.*" />
+          <option name="PATTERN" value="api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="mock" />
-      <option name="MAIN_CLASS_NAME" value="mock.EasyMock" />
-      <option name="METHOD_NAME" value="testTea" />
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.NewTest" />
+      <option name="METHOD_NAME" value="f" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -194,32 +224,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mayday.test12" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="jiaoben" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com" />
-      <option name="MAIN_CLASS_NAME" value="com.mayday" />
-      <option name="METHOD_NAME" value="test12" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test" type="TestNG">
       <module name="jiaoben" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -242,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DoubanTest.getMovie" />
+        <item itemvalue="TestNG.NewTest.f" />
         <item itemvalue="TestNG.EasyMock.testTea" />
         <item itemvalue="TestNG.EasyMock.test2" />
         <item itemvalue="TestNG.EasyMock" />
-        <item itemvalue="TestNG.EasyMock.testMock" />
-        <item itemvalue="TestNG.mayday.test12" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574568776911</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mockito">
+      <created>1574580978469</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574580978469</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -303,6 +314,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -311,6 +347,11 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
