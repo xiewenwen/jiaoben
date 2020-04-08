@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f745af82-3982-4eb7-bd5c-c46acc42b030" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/test.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/api/DoubanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/DoubanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/excel/ExcelData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/excel/ExcelData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/yiye/Excel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/yiye/Excel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/excel/ExcelData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/excel/ExcelData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/yiye/Excel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/yiye/Excel.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -43,6 +49,9 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
@@ -96,17 +105,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EasyMock" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Excel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jiaoben" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mock.*" />
+          <option name="PATTERN" value="yiye.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="mock" />
-      <option name="MAIN_CLASS_NAME" value="mock.EasyMock" />
+      <option name="PACKAGE_NAME" value="yiye" />
+      <option name="MAIN_CLASS_NAME" value="yiye.Excel" />
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -122,18 +131,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EasyMock.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Excel.sumTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jiaoben" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mock.*" />
+          <option name="PATTERN" value="yiye.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="mock" />
-      <option name="MAIN_CLASS_NAME" value="mock.EasyMock" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="yiye" />
+      <option name="MAIN_CLASS_NAME" value="yiye.Excel" />
+      <option name="METHOD_NAME" value="sumTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -148,18 +157,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EasyMock.testTea" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Excel.testAdd" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jiaoben" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mock.*" />
+          <option name="PATTERN" value="yiye.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="mock" />
-      <option name="MAIN_CLASS_NAME" value="mock.EasyMock" />
-      <option name="METHOD_NAME" value="testTea" />
+      <option name="PACKAGE_NAME" value="yiye" />
+      <option name="MAIN_CLASS_NAME" value="yiye.Excel" />
+      <option name="METHOD_NAME" value="testAdd" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -174,20 +183,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewTest.f" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NewTest2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jiaoben" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="api.*" />
+          <option name="PATTERN" value="com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.NewTest" />
-      <option name="METHOD_NAME" value="f" />
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.NewTest2" />
+      <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
@@ -243,10 +252,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.DoubanTest.getMovie" />
-        <item itemvalue="TestNG.NewTest.f" />
-        <item itemvalue="TestNG.EasyMock.testTea" />
-        <item itemvalue="TestNG.EasyMock.test2" />
-        <item itemvalue="TestNG.EasyMock" />
+        <item itemvalue="TestNG.Excel.testAdd" />
+        <item itemvalue="TestNG.Excel" />
+        <item itemvalue="TestNG.Excel.sumTest" />
+        <item itemvalue="TestNG.NewTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586262681052</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="提交测试">
+      <created>1586262833818</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586262833818</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -369,6 +385,7 @@
     <MESSAGE value="sd" />
     <MESSAGE value="mockito" />
     <MESSAGE value="自动化测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="自动化测试" />
+    <MESSAGE value="提交测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交测试" />
   </component>
 </project>

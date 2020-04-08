@@ -38,7 +38,9 @@ public class ExcelData {
     public Object[][] getExcelData() throws BiffException, IOException {
 
         workbook = Workbook.getWorkbook(new File(getPath()));
+
         sheet = workbook.getSheet(caseName);
+        System.out.println(sheet);
         rows = sheet.getRows();
         columns = sheet.getColumns();
         // 为了返回值是Object[][],定义一个多行单列的二维数组
@@ -74,9 +76,11 @@ public class ExcelData {
      */
     public String getPath() throws IOException {
         File directory = new File(".");
-        sourceFile = directory.getCanonicalPath() + "\\src\\test\\java\\resources\\"
+       //sourceFile = directory.getCanonicalPath() + "\\src\\test\\java\\resources\\"
+               // + fileName + ".xls";
+        sourceFile = directory.getCanonicalPath() + "/src/test/java/resources/"
                 + fileName + ".xls";
-        System.out.println();
+        System.out.println(sourceFile);
         return sourceFile;
     }
 

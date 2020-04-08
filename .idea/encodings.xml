@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/src/test/java/api/NewTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/test/java/com/NewTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/test/java/com/Test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/java/excel/ExcelData.java" charset="GBK" />
   </component>
 </project>
