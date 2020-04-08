@@ -1,6 +1,7 @@
 package api;
 
 import com.google.gson.JsonObject;
+import org.apache.bcel.generic.NEW;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.util.EntityUtils;
@@ -8,6 +9,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.Map;
 
 public class DoubanTest {
     CloseableHttpResponse closeableHttpResponse;
@@ -33,8 +35,20 @@ public class DoubanTest {
         //获取接口的返回内容
         String responseString = EntityUtils.toString(closeableHttpResponse.getEntity());
         System.out.println("the response is:"+responseString);
+    }
 
+    @Test
+    public void getJoke(){
+        String url="https://api.apiopen.top/getJoke";
+        Map<String,String> map=new HashMap<String, String>();
+        map.put("page","1");
+        map.put("count","2");
+        map.put("type","video");
+        closeableHttpResponse=RestClient.getWithParams(url,map);
+        int statusCode=closeableHttpResponse.getStatusLine().getStatusCode();
+        System.out.println("the code is:"+statusCode);
 
 
     }
+
 }

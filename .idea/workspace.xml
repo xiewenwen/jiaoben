@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f745af82-3982-4eb7-bd5c-c46acc42b030" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/test.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="f745af82-3982-4eb7-bd5c-c46acc42b030" name="Default Changelist" comment="修改从Excel读取读取数据的方式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/api/DoubanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/DoubanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/excel/ExcelData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/excel/ExcelData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/yiye/Excel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/yiye/Excel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/excel/ExcelData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/excel/ExcelData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/yiye/Excel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/yiye/Excel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/RestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/RestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/RestClient.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,13 +64,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DoubanTest.getMovie">
+  <component name="RunManager" selected="TestNG.DoubanTest.getJoke">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
       <fork_mode value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubanTest.getJoke" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jiaoben" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.DoubanTest" />
+      <option name="METHOD_NAME" value="getJoke" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,32 +205,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewTest2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="jiaoben" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com" />
-      <option name="MAIN_CLASS_NAME" value="com.NewTest2" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <module name="jiaoben" />
       <option name="SUITE_NAME" value="" />
@@ -251,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DoubanTest.getJoke" />
         <item itemvalue="TestNG.DoubanTest.getMovie" />
         <item itemvalue="TestNG.Excel.testAdd" />
         <item itemvalue="TestNG.Excel" />
         <item itemvalue="TestNG.Excel.sumTest" />
-        <item itemvalue="TestNG.NewTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586262833818</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="修改从Excel读取读取数据的方式">
+      <created>1586352241963</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586352241963</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -386,6 +389,7 @@
     <MESSAGE value="mockito" />
     <MESSAGE value="自动化测试" />
     <MESSAGE value="提交测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交测试" />
+    <MESSAGE value="修改从Excel读取读取数据的方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改从Excel读取读取数据的方式" />
   </component>
 </project>

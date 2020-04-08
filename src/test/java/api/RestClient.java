@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.client.ClientProtocolException;
@@ -29,6 +30,35 @@ public class RestClient {
 	  return httpResponse;
 	  
 	}
+
+	public static CloseableHttpResponse getWithParams(String url,Map<String,String> params){
+		Set<String> keys=params.keySet();
+		int mark=1;
+		for(String key:keys){
+			if (mark==1){
+				url+="?"+key+"="+params.get(key);
+				mark++;
+			}
+			else{
+				url+="&"+key+"="+params.get(key);
+			}
+		}
+		System.out.println(url);
+		CloseableHttpResponse httpResponse=null;
+		try {
+			CloseableHttpClient httpclient=HttpClients.createDefault();
+			//创建一个httpget对象
+			HttpGet httpget = new HttpGet(url);
+			//执行请求,相当于postman上点击发送按钮，然后赋值给HttpResponse对象接收
+			 httpResponse = httpclient.execute(httpget);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		//返回请求的结果
+		return httpResponse;
+
+	}
+
 	//post方法
 	public CloseableHttpResponse post(String url,String entityString,HashMap<String,String> headermap) throws ClientProtocolException, IOException{
 		//创建一个httpClient对象
@@ -51,7 +81,7 @@ public class RestClient {
 	}
 		
 	//get带请求头
-	public CloseableHttpResponse get(String url,HashMap<String,String> headermap) throws ClientProtocolException, IOException{
+	public static CloseableHttpResponse get(String url,HashMap<String,String> headermap) throws ClientProtocolException, IOException{
 		CloseableHttpClient httpclient=HttpClients.createDefault();
 		HttpGet httpget=new HttpGet(url);
 		for(Map.Entry<String, String> entry:headermap.entrySet()){
