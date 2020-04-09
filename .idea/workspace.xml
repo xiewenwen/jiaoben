@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f745af82-3982-4eb7-bd5c-c46acc42b030" name="Default Changelist" comment="修改从Excel读取读取数据的方式">
+    <list default="true" id="f745af82-3982-4eb7-bd5c-c46acc42b030" name="Default Changelist" comment="优化RestClient工具类下，get方法拼接url参数">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/excel/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jiaoben.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jiaoben.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/DoubanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/DoubanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/RestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/api/RestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/api/RestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DoubanTest.getJoke">
+  <component name="RunManager" selected="TestNG.ExcelUtil.test">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -127,17 +134,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Excel" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExcelUtil" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jiaoben" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="yiye.*" />
+          <option name="PATTERN" value="excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="yiye" />
-      <option name="MAIN_CLASS_NAME" value="yiye.Excel" />
+      <option name="PACKAGE_NAME" value="excel" />
+      <option name="MAIN_CLASS_NAME" value="excel.ExcelUtil" />
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -153,18 +160,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Excel.sumTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExcelUtil.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jiaoben" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="yiye.*" />
+          <option name="PATTERN" value="excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="yiye" />
-      <option name="MAIN_CLASS_NAME" value="yiye.Excel" />
-      <option name="METHOD_NAME" value="sumTest" />
+      <option name="PACKAGE_NAME" value="excel" />
+      <option name="MAIN_CLASS_NAME" value="excel.ExcelUtil" />
+      <option name="METHOD_NAME" value="test" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
@@ -247,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExcelUtil.test" />
+        <item itemvalue="TestNG.ExcelUtil" />
         <item itemvalue="TestNG.DoubanTest.getJoke" />
         <item itemvalue="TestNG.DoubanTest.getMovie" />
         <item itemvalue="TestNG.Excel.testAdd" />
-        <item itemvalue="TestNG.Excel" />
-        <item itemvalue="TestNG.Excel.sumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586352241963</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="优化RestClient工具类下，get方法拼接url参数">
+      <created>1586356795701</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586356795701</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -390,6 +404,7 @@
     <MESSAGE value="自动化测试" />
     <MESSAGE value="提交测试" />
     <MESSAGE value="修改从Excel读取读取数据的方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改从Excel读取读取数据的方式" />
+    <MESSAGE value="优化RestClient工具类下，get方法拼接url参数" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化RestClient工具类下，get方法拼接url参数" />
   </component>
 </project>
